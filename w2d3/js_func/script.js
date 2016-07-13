@@ -30,7 +30,48 @@
 
 // - Declare a function that takes no arguments but prints something to the console, try invoking it after it has been declared
 
+// function anotherFunc(){
+// 	//print something to console
+// 	console.log("Something");
+// }
 
-// - No Whammies!!! Declare a function that receives an input of door 1, 2 or 3. Depending upon which virtual "door" was entered, the function will tell the user they've received 
+// anotherFunc();
+
+
+// - No Whammies!!! Declare a function that receives an input of door 1, 2 or 3. Depending upon 
+//which virtual "door" was entered, the function will tell the user they've received 
 //a different "prize" in an alert. Try running it after it has been declared a few 
 //times with each door option.
+
+
+
+function whammies(doorNum){
+	if (doorNum === 1) {
+		alert("You have won a pile of hay");
+	} else if (doorNum === 2) {
+		alert("You have won a donkey");
+	} else {
+		alert("BIG WINNNER! You have won a pot of gold");
+	}
+}
+
+whammies(3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
