@@ -1,0 +1,43 @@
+body {
+	font-family: arial;
+}
+.static-stuff {
+	position: fixed;
+	top: 10px;
+	background-color: orange;
+	color: white;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	padding-right: 6px;
+}
+
+li {
+	display: inline-block;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+	
+}
+
+
+
+p {
+	width: 50%;
+}
+
+
+
+

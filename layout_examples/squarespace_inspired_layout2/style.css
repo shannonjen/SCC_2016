@@ -1,0 +1,50 @@
+body {
+	background-image: url(http://static1.squarespace.com/static/56cb3e0bf85082a807c001fe/t/56cb8bd120c647ad15b238f0/1456246592500/);
+	font-family: arial;
+	color: white;
+	letter-spacing: 10px;
+}
+
+
+h1 {
+	float: left;
+	margin-top: 0;
+	font-size: 48px;
+}
+
+ul {
+	margin-top: 24px;
+}
+
+nav {
+	float: right;
+}
+
+.image-info {
+	background-color: white;
+	color: black;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+}
+
+.image-info a {
+	color: black;
+}
+a {
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+

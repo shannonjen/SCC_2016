@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	background-color: red;
+	overflow: auto;
+}
+
+#header h1 {
+	background-color: green;
+	margin: 1%;
+	padding: 2%;
+}
+/*we have to clear the footer*/
+#footer {
+	background-color: yellow;
+	clear: left;
+	overflow: auto;
+}
+
+#footer p {
+	background-color: orange;
+	margin: 1%;
+	padding: 2%;
+}
+
+/*notice what happens to the height of the main-content container when the float is 
+applied to the cols*/
+#main-content {
+	background-color: purple;
+	overflow: auto;
+
+}
+.col {
+	width: 44%;
+	margin: 1%;
+	padding: 2%;
+	float: left;
+	background-color: blue;
+}
+
+

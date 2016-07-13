@@ -1,0 +1,9 @@
+h1 {
+	color: red;
+	font-family: arial;
+	font-size: 72px;
+}
+
+body {
+	background-image: url("images/bg.jpeg");
+}

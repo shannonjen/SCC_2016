@@ -1,0 +1,28 @@
+.darkGreen {
+	color: darkgreen;
+}
+
+h1,h2 {
+	font-family: Georgia;
+	text-align: center;
+}
+
+p{
+	line-height: 19px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.name{
+	font-weight: bold;
+}

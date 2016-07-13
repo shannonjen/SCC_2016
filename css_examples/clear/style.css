@@ -1,0 +1,14 @@
+div {
+	background-color: grey;
+	border: 1px solid black;
+	margin: 10px;
+	width: 400px;
+	height: 800px;
+}
+.my-float {
+	float: left;
+}
+
+.clear {
+	clear: left;
+}
