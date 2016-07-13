@@ -73,12 +73,28 @@
 // }
 
 
-x = 0
-while (x <100) {
-	console.log("99 Bottle of beer on the wall...");
-	x++
+x = 99;
+var mySong = "";
+while (x >=0) {
+	mySong = mySong + x + " bottles of beer on the wall...";
+	
+	x--;
 }
 
+console.log(mySong);
+
+
+
+
+
+
+//this is a variable declaration
+var myName = "Jen"
+
+
+function myAmazingFunction(num){
+	alert(num+500);
+}
 
 
 
