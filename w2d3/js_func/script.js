@@ -43,19 +43,42 @@
 //a different "prize" in an alert. Try running it after it has been declared a few 
 //times with each door option.
 
-var userChoice = prompt("Please enter a door number from 1-3");
+// var userChoice = prompt("Please enter a door number from 1-3");
 
-function whammies(doorNum){
-	if (doorNum === "1") {
-		alert("You have won a pile of hay");
-	} else if (doorNum === "2") {
-		alert("You have won a donkey");
-	} else {
-		alert("BIG WINNNER! You have won a pot of gold");
-	}
+// function whammies(blah){
+	
+// 	if (blah === "1") {
+// 		alert("You have won a pile of hay");
+// 	} else if (blah === "2") {
+// 		alert("You have won a donkey");
+// 	} else {
+// 		alert("BIG WINNNER! You have won a pot of gold");
+// 	}
+// }
+
+// whammies(userChoice);
+
+// for (var i = 0; i <15; i++) {
+// 	console.log(i+ "I like to move it");
+// }
+
+// var myArray = ["Shirt", "Hat", "Gloves"];
+// for (var i = 0; i <myArray.length; i++) {
+// 	console.log(myArray[i]);
+// }
+
+// var myArray = ["Sam", "Nick", "Gina"];
+// for (var i = 0; i <myArray.length; i++) {
+// 	console.log(myArray[i] + " is my friend");
+// }
+
+
+x = 0
+while (x <100) {
+	console.log("99 Bottle of beer on the wall...");
+	x++
 }
 
-whammies(userChoice);
 
 
 
