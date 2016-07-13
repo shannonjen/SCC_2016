@@ -43,7 +43,7 @@
 //a different "prize" in an alert. Try running it after it has been declared a few 
 //times with each door option.
 
-
+var userChoice = prompt("Please enter a door number from 1-3");
 
 function whammies(doorNum){
 	if (doorNum === 1) {
@@ -55,7 +55,7 @@ function whammies(doorNum){
 	}
 }
 
-whammies(3);
+whammies(userChoice);
 
 
 
