@@ -46,9 +46,9 @@
 var userChoice = prompt("Please enter a door number from 1-3");
 
 function whammies(doorNum){
-	if (doorNum === 1) {
+	if (doorNum === "1") {
 		alert("You have won a pile of hay");
-	} else if (doorNum === 2) {
+	} else if (doorNum === "2") {
 		alert("You have won a donkey");
 	} else {
 		alert("BIG WINNNER! You have won a pot of gold");
