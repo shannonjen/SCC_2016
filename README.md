@@ -3,19 +3,24 @@
 ## Sample Layouts
 
 Squarespace Inspired [Forte]
-https://shannonjen.github.io/SCC_2016/layout_examples/squarespace_inspired_layout2/
+[site](https://shannonjen.github.io/SCC_2016/layout_examples/squarespace_inspired_layout2/)
+/[code](https://github.com/shannonjen/SCC_2016/tree/master/layout_examples/squarespace_inspired_layout2)
 
 Squarespace Inspired [Native]
-https://shannonjen.github.io/SCC_2016/layout_examples/squarespace_inspired_layout/
+[site](https://shannonjen.github.io/SCC_2016/layout_examples/squarespace_inspired_layout/)
+/[code](https://github.com/shannonjen/SCC_2016/tree/master/layout_examples/squarespace_inspired_layout)
 
 2 Column Layout with Header and Footer
-https://shannonjen.github.io/SCC_2016/layout_examples/header_footer_2col_layout_ex
+[site](https://shannonjen.github.io/SCC_2016/layout_examples/header_footer_2col_layout_ex)
+/[code](https://github.com/shannonjen/SCC_2016/tree/master/layout_examples/header_footer_2col_layout_ex)
 
 2 Column Layout with Header and Footer showing floats, clear, and overflow: auto
-https://shannonjen.github.io/SCC_2016/layout_examples/layout_float_clear_auto
+[site](https://shannonjen.github.io/SCC_2016/layout_examples/layout_float_clear_auto)
+/[code](https://github.com/shannonjen/SCC_2016/tree/master/layout_examples/layout_float_clear_auto)
 
 Side Menu
-https://shannonjen.github.io/SCC_2016/layout_examples/side_menu
+[site](https://shannonjen.github.io/SCC_2016/layout_examples/side_menu)
+/[code](https://github.com/shannonjen/SCC_2016/tree/master/layout_examples/side_menu)
 
 ##Reference (my favorites)
 ###HTML Elements
