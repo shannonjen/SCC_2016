@@ -1,8 +1,7 @@
 
 $(document).ready(function(){
 	$('a').on("click",function(){
-		$('img').show();
-		$('img')
+		$('.lightbox').show();
 	});
 });
 
@@ -32,13 +31,13 @@ $(document).ready(function(){
 
 
 
-$(document).ready(function(){
-	$('a').on("click",function(){
-		$('img').show(function(){
-			$('img').click(function(){
-				$('img').hide();	
-			})
-		});
-	});
-});
+// $(document).ready(function(){
+// 	$('a').on("click",function(){
+// 		$('img').show(function(){
+// 			$('img').click(function(){
+// 				$('img').hide();	
+// 			})
+// 		});
+// 	});
+// });
 
