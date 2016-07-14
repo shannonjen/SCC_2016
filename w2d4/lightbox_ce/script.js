@@ -2,6 +2,9 @@
 $(document).ready(function(){
 	$('a').on("click",function(){
 		$('.lightbox').show();
+		$('img').on("click",function(){
+			$('.lightbox').hide();
+		});
 	});
 });
 
