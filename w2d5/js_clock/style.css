@@ -1,0 +1,11 @@
+body {
+	background-color: aqua;
+	font-family: arial;
+	text-align: center;
+}
+
+#clock {
+	display: inline-block;
+	padding: 40px;
+	font-size: 36px;
+}

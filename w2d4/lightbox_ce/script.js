@@ -1,10 +1,11 @@
 
 $(document).ready(function(){
-	$('a').on("click",function(){
+	$('a').on("click",function(e){
+		console.log(e);
 		var imgUrl = $(this).data("img-url");
 		$('img').attr("src",imgUrl);
 		$('.lightbox').show();
-		$('img').on("click",function(){
+		$('.lightbox').on("click",function(){
 			$('.lightbox').hide();
 		});
 	});

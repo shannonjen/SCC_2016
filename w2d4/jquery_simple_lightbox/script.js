@@ -11,7 +11,7 @@ $(document).ready(function() {
     // gets the current element that was clicked
     //  then gets the value of the attribute "img-url"
     
-    
+    console.log(this);
     var imageUrl = $(this).data("img-url");
 
     $("#lightbox-image").attr('src', imageUrl);
