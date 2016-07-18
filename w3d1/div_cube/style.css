@@ -1,0 +1,51 @@
+body {
+	font-family: Arial;
+	background-color: black;
+	text-align: center;
+}
+
+#rubix {
+/*	box-sizing: border-box;*/
+	width: 400px;
+  height: 400px;
+
+ /* width: 50vh;
+  height: 50vh;*/
+  
+
+  position: fixed;
+
+	left: 50%;
+	top: 50%;
+  
+  
+
+  transform: translate(-50%, -50%);
+
+  /*margin: -200px 0 0 -200px;*/
+  border: 5px solid white;
+}
+
+
+.cube {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	float: left;
+	/*display: inline-block;*/
+}
+
+#cube1 {
+	background-color: red;
+}
+
+#cube2 {
+	background-color: green;
+}
+#cube3 {
+	background-color: blue;
+}
+
+#cube4 {
+	background-color: yellow;
+}
