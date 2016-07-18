@@ -23,14 +23,18 @@ setInterval(function(){
 	console.log(myArray[Math.floor(Math.random()*myArray.length)]);
 	document.getElementById("hours").innerHTML= hours;
 	document.getElementById("minutes").innerHTML= minute;
-	if (seconds%5 === 0 && cheese==="good"){
+	if (seconds%5 === 0){
 		document.getElementById("home").style.backgroundColor = randomColor();
+	} else if (seconds%15===0){
+		console.log("seconds is a multiple of 15");
 	} else {
-		console.log("seconds is not a multiple of 5");
+		console.log("seconds is not a multiple of 15 or 5")
+
 	}
 	// document.body.style.backgroundColor = "pink";
 	if (hours > 12) {
 		document.getElementById("message").innerHTML = "Good Afternoon";
+		
 	}
 	
 }, 1000);

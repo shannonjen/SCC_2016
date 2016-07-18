@@ -9,6 +9,7 @@ body {
 	display: inline-block;
 	padding: 40px;
 	font-size: 72px;
+	background: red;
 }
 
 #message {
