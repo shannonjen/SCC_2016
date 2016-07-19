@@ -44,15 +44,7 @@ nav a {
 }
 
 
-/*@media all and (max-width: 900px) and (min-width: 500px){
-	body {
-		background-color: pink;
-	}
-	nav li {
-		display: block;
-	}
-	
-}*/
+
 #gallery{
 	width: 880px;
 	overflow: auto;
