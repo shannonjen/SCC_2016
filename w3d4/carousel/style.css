@@ -1,29 +1,3 @@
-#div1 {
-	background-color: purple;
-	width: 100%;
-	height: 100px;
+.slide{
 	display: none;
-}
-
-#div2 {
-	background-color: pink;
-	width: 100%;
-	height: 100px;
-	display: none;
-
-}
-#div3 {
-	background-color: aqua;
-	width: 100%;
-	height: 100px;
-	display: none;
-
-}
-
-#div4 {
-	background-color: yellow;
-	width: 100%;
-	height: 100px;
-	display: none;
-
 }

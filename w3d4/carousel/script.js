@@ -1,21 +1,20 @@
 //array of the divs with a class of color-div
-var divs = $('.color-div');
+var divs = $('.slide');
 //counter to keep track of the number 
 //of the array item we are on
 var currentIndex = 0;
 
 function someFunc(){	
-
-	$(divs[currentIndex]).show();
-	console.log(divs[currentIndex]);
-	if (currentIndex<4){
+	if(currentIndex<divs.length){
+		$(divs[currentIndex]).show();
 		$(divs[currentIndex-1]).hide();
 		currentIndex++;
-	} else{
+	} else {
 		$(divs[currentIndex-1]).hide();
-		currentIndex = 0;
-	}	
-
+		currentIndex=0;
+		$(divs[currentIndex]).show();
+		currentIndex++;
+	}
 }
 
 
