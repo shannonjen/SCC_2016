@@ -1,4 +1,3 @@
-var funnyStuff = [""]
 
 $(document).ready(function(){
 	$('#user-entry').on('submit',function(e){
@@ -24,6 +23,7 @@ $(document).ready(function(){
 		$("#noun1Output").html(noun1);
 		$("#noun2Output").html(noun2);
 		$("#verbOutput").html(verb);
+		$("#searchTerm").html(searchTerm);
 
 		
 		$("#funny-output").show();
