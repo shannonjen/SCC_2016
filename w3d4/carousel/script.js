@@ -8,7 +8,7 @@ function someFunc(){
 
 	$(divs[currentIndex]).show();
 	console.log(divs[currentIndex]);
-	if (currentIndex<3){
+	if (currentIndex<4){
 		$(divs[currentIndex-1]).hide();
 		currentIndex++;
 	} else{
