@@ -2,18 +2,18 @@
 var divs = $('.color-div');
 //counter to keep track of the number 
 //of the array item we are on
-var counter = 0;
+var currentIndex = 0;
 
 function someFunc(){	
 
-	$(divs[counter]).show();
-	console.log(divs[counter]);
-	if (counter<3){
-		$(divs[counter-1]).hide();
-		counter++;
+	$(divs[currentIndex]).show();
+	console.log(divs[currentIndex]);
+	if (currentIndex<3){
+		$(divs[currentIndex-1]).hide();
+		currentIndex++;
 	} else{
-		$(divs[counter-1]).hide();
-		counter = 0;
+		$(divs[currentIndex-1]).hide();
+		currentIndex = 0;
 	}	
 
 }
