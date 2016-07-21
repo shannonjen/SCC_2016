@@ -3,12 +3,12 @@ body {
 	padding: 0;
 	font-family: arial;
 	color :white;
-	
 }
 .nav-wrapper{
 	box-sizing: border-box;
   width: 100%;
   overflow: auto;
+  
 }
 
 #logo {
@@ -56,12 +56,12 @@ nav ul li a{
 
 #contact {
 	color: black;
-	background-color: white;
+	background-color: gray;
 	overflow: auto;
 }
 
 #history, #about {
-	background-color: pink;
+	background-color: white;
 	overflow: auto;
 	color: black;
 }
