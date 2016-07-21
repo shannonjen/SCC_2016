@@ -8,17 +8,9 @@ $(document).ready(function(){
 		var verb = $("#verb").val();
 
 		var searchTerm = $("#searchTerm").val();
-
-		$.ajax({
-			url: "https://api.spotify.com/v1/search",
-			data: {
-				q: searchTerm,
-				type: 'track'
-			},
-			success: function(response){
-				console.log(response.tracks.items[0].preview_url);
-			}
-		});
+		
+		spotifyLookup(searchTerm);
+		
 
 		$("#noun1Output").html(noun1);
 		$("#noun2Output").html(noun2);
@@ -30,3 +22,19 @@ $(document).ready(function(){
 
 	});
 });
+
+function spotifyLookup(query){
+	$.ajax({
+			url: "https://api.spotify.com/v1/search",
+			data: {
+				q: query,
+				type: 'track'
+			},
+			success: function(response){
+				console.log(response.tracks.items[0].preview_url);
+				var songUrl = response.tracks.items[0].preview_url;
+				$('audio').attr("src",songUrl);
+				$('audio')[0].play();
+			}
+		});
+}
