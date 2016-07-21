@@ -3,6 +3,7 @@ var divs = $('.slide');
 //counter to keep track of the number 
 //of the array item we are on
 var currentIndex = 0;
+var counter = 0;
 
 function someFunc(){	
 	if(currentIndex<divs.length){
@@ -17,5 +18,13 @@ function someFunc(){
 	}
 }
 
+function otherFunc(){
+	var time = new Date();
+	console.log(time);
+}
 
-setInterval(someFunc, 1000);
+function counterTimer(){
+	console.log(counter++);
+}
+
+setInterval(function(){alert("hi")}, 2000);
