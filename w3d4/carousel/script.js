@@ -1,30 +1,23 @@
 //array of the divs with a class of color-div
-var divs = $('.slide');
+var slides = $('.slide');
 //counter to keep track of the number 
 //of the array item we are on
 var currentIndex = 0;
-var counter = 0;
 
-function someFunc(){	
-	if(currentIndex<divs.length){
-		$(divs[currentIndex]).show();
-		$(divs[currentIndex-1]).hide();
-		currentIndex++;
-	} else {
-		$(divs[currentIndex-1]).hide();
+function slideShow(){	
+	//hide the currently displayed slide
+	$(slides[currentIndex]).fadeOut(2000);
+	//if this is the last slide in the array, reset the index to 0
+	if(currentIndex===slides.length-1){
 		currentIndex=0;
-		$(divs[currentIndex]).show();
+	//else, add one to the index
+	} else {
 		currentIndex++;
 	}
+	//show the next slide
+	$(slides[currentIndex]).fadeIn(2000);
 }
 
-function otherFunc(){
-	var time = new Date();
-	console.log(time);
-}
+setInterval(slideShow, 4000);
 
-function counterTimer(){
-	console.log(counter++);
-}
 
-setInterval(function(){alert("hi")}, 2000);
