@@ -2,6 +2,10 @@
 
 ## Sample Layouts
 
+JS Scroll To [Forte]
+[site](https://shannonjen.github.io/SCC_2016/layout_examples/javascript_scroll_to/)
+/[code](https://github.com/shannonjen/SCC_2016/tree/master/layout_examples/javascript_scroll_to)
+
 Squarespace Inspired [Forte]
 [site](https://shannonjen.github.io/SCC_2016/layout_examples/squarespace_inspired_layout2/)
 /[code](https://github.com/shannonjen/SCC_2016/tree/master/layout_examples/squarespace_inspired_layout2)
