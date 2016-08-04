@@ -1,0 +1,40 @@
+body {
+	font-family: arial;
+	background-color: black;
+	color: white;
+}
+.logo {
+	font-family: helvetica, arial, sans-serif;
+	font-weight: 200;
+	text-align: center;
+
+}
+
+.slide img {
+	height: auto;
+	width: 100%;
+}
+
+/*the relative position of this wrapper div 
+serves as a reference frame for the 
+absolute position given to the slide class*/
+.slide-wrapper{
+	position: relative;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+/*the absolute position stacks the slides 
+the slides*/
+.slide{
+	position: absolute;
+	display: none;
+}
+
+
+
+
+
+
+
+

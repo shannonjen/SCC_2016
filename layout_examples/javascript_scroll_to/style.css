@@ -1,0 +1,92 @@
+body {
+  font-family: arial;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient( rgba(150, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i0.wp.com/29.media.tumblr.com/tumblr_loe0w010y11qlefrno1_500.gif) bottom right;
+  background-size: cover;
+  overflow: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+nav a:hover {
+  color: pink;
+}
+
+#greeting {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#greeting h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+#about,
+#contact,
+#history {
+  position: relative;
+  padding: 20px 40px;
+  margin: 10px auto;
+  max-width: 80%
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-top: 0;
+}
+
+p {
+  width: 60%;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+#featImg1 {
+  height: 400px;
+  background: black url(images/bike.jpg) bottom right;
+  background-size: cover;
+}
+
+#featImg2 {
+  height: 400px;
+  background: black url(images/bug.jpg) center center;
+  background-size: cover;
+}
+
+#featImg3 {
+  height: 400px;
+  background: black url(images/type.jpg) center center;
+  background-size: cover;
+}

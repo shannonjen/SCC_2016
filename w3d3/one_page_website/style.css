@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	color :white;
+}
+.nav-wrapper{
+	box-sizing: border-box;
+  width: 100%;
+  overflow: auto;
+  
+}
+
+#logo {
+	float: left;
+	font-size: 42px;
+	padding: 0;
+	margin: 20px 0 0 20px;
+}
+
+#inspire{
+	position: absolute; 
+	bottom: 15%;
+	left: 20px;
+	width: 600px;
+}
+
+#inspire h1 {
+	font-size: 48px;
+}
+
+
+nav ul{ 
+	margin-top: 30px;
+	float: right;
+}
+
+nav ul li{ 
+  display: inline;
+}
+
+nav ul li a{ 
+  text-decoration: none;
+ 	font-size: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#jumbotron {
+	position: relative;
+	background: black url(https://static.pexels.com/photos/4164/landscape-mountains-nature-mountain.jpeg) center center fixed;
+	background-size: cover;
+	height: 80vh;
+}
+
+#contact {
+	color: black;
+	background-color: gray;
+	overflow: auto;
+}
+
+#history, #about {
+	background-color: white;
+	overflow: auto;
+	color: black;
+}
+
+.col {
+	box-sizing: border-box;
+	width: 50%;
+	padding: 20px;
+	float: left;
+}
