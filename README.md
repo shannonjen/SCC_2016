@@ -26,32 +26,32 @@ Side Menu
 [site](https://shannonjen.github.io/SCC_2016/layout_examples/side_menu)
 /[code](https://github.com/shannonjen/SCC_2016/tree/master/layout_examples/side_menu)
 
-##Reference (my favorites)
-###HTML Elements
+## Reference (my favorites)
+### HTML Elements
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
-###CSS properties, psuedo-classes, units,...
+### CSS properties, psuedo-classes, units,...
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
-###Git
+### Git
 https://git-scm.com/docs
 
-##Free Learning Resources (my favorites)
-###HTML & CSS
+## Free Learning Resources (my favorites)
+### HTML & CSS
 http://learn.shayhowe.com/html-css/
-###Git
+### Git
 https://try.github.io
 
 https://git-scm.com/book/en/v2
 
 https://www.atlassian.com/git/tutorials/comparing-workflows
 
-###JavaScript
+### JavaScript
 http://eloquentjavascript.net/
 
 
-##Newsletters
+## Newsletters
 http://javascriptweekly.com/
 
 http://html5weekly.com/
 
-##Meetups
+## Meetups
 Monthly JS Meetup (sells out in minutes)
