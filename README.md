@@ -37,6 +37,8 @@ https://git-scm.com/docs
 ## Free Learning Resources (my favorites)
 ### HTML & CSS
 http://learn.shayhowe.com/html-css/
+
+http://learnlayout.com/
 ### Git
 https://try.github.io
 
